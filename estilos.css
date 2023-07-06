@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Mountains+of+Christmas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+/*paleta colores
+rosa: #D07FB0
+gris : #969292*/
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+/*header*/
+
+header {
+    width: 100%;
+    display: flex;
+    padding: 0.2rem;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+.menu {
+    width: 2.6rem;
+    height: 2.4rem;
+    padding: 1.5rem;
+    margin-top: 1rem;
+}
+
+.logo-header {
+    width: 15rem;
+    height: auto;
+    padding: 1rem;
+    margin-right: 1rem;
+
+}
+
+/*main*/
+
+.linea-deco {
+    width: 95%;
+    margin-top: 1rem;
+    margin-left: 1.8rem;
+
+}
+
+/*home*/
+.seccion-img-home {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.img-pc {
+    width: 60%;
+
+}
+
+.seccion2-homebis {
+    width: 100%;
+    height: 4rem;
+    background-color: #D07FB0;
+}
+
+.seccion2-home {
+    width: 100%;
+    height: 4rem;
+    background-color: #D07FB0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 0.8rem;
+    animation: slide-text 8s infinite linear;
+}
+
+@keyframes slide-text {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.tit1-home {
+    width: 33%;
+    margin-left: 5rem;
+    text-align: center
+}
+
+.seccion3-home-info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.tarjetas-info-home {
+    width: 15rem;
+    height: 20rem;
+    margin: 1rem;
+    background-color: #969292;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Gruppo', sans-serif;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info-tarjetas {
+    width: 100%;
+    height: 13rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signo {
+    margin: 1rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: 2rem;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.611);
+    border-radius: 50%;
+    border: solid white 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/*seccion contacto*/
+.seccion-btn-contacto {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-contacto {
+    width: 20%;
+    height: 3rem;
+    border-radius: 25px;
+    background-color: #D07FB0;
+    border: none;
+    margin: 1rem;
+    color: white;
+    font-family: 'Poiret One', cursive;
+}
+
+/*footer*/
+footer {
+    background-color: black;
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    flex-direction: row;
+}
+.info-footer{
+   
+    margin: 0.2rem;
+
+}
+.seccion-footer-links {
+    width: 50%;
+    margin-top: 5rem;
+    font-size: 0.7rem;
+    font-family: 'Poiret One', cursive;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: start;
+    
+}
+
+.seccion-marca {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: end;
+}
+
+.tit-2 {
+    width: 100%;
+    font-size: 2rem;
+    margin-left: 62%;
+    font-family: 'Poiret One', cursive;
+    color: white;
+}
+  
+  .tit-3 {
+    width: 100%;
+    font-size: 1rem;
+    color: #D07FB0;
+    margin-bottom: 0;
+    margin-left: 89%;
+    font-family: 'Poiret One', cursive;
+  }
+  
